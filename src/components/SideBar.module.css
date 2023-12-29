@@ -1,0 +1,58 @@
+.SidebarContainer {
+  position: absolute;
+  margin-top: 78px;
+  width: 185px;
+  padding: 38px;
+}
+
+.sidebar {
+  width: 100%;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.filterSection {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #ddd;
+}
+
+li.active {
+  background-color: #3498db;
+  color: #fff;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+}
